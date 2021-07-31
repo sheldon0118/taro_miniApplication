@@ -10,10 +10,10 @@ export default {
     navigationBarTextStyle: 'black'
   },
   tabBar:{
-    color:'gray',
-    selectedColor:'gold',
-    backgroundColor:'#eee',
-    borderStyle:'white',
+    color:'#000',
+    selectedColor:'#000',
+    backgroundColor:'#fff',
+    borderStyle:'black',
     position:'bottom',
     list:[
       {
