@@ -19,14 +19,14 @@ export default {
       {
         pagePath:'pages/index/index',
         text:'仓库',
-        iconPath:'',
-        selectedIconPath:''
+        iconPath:'assets/global/emotion-normal-line.png',
+        selectedIconPath:'assets/global/emotion-laugh-line.png'
       },
       {
         pagePath:'pages/userCenter/userCenter',
         text:'我的',
-        iconPath:'',
-        selectedIconPath:''
+        iconPath:'assets/global/emotion-unhappy-line.png',
+        selectedIconPath:'assets/global/emotion-happy-line.png'
       }
     ]
   }

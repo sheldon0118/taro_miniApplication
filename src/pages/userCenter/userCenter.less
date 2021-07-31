@@ -1,0 +1,27 @@
+.wrap{
+  padding: 20px;
+  .header-card{
+    padding: 30px 10px;
+    border:1px solid #eee;
+    box-shadow: 1px 1px 1px 2px #eee;
+    display: flex;
+    .header-card-info{
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .content{
+    margin-top: 30px;
+    .content-item{
+      border-bottom: 1px solid #eee;
+      padding: 25px 0px;
+      &:nth-child(1){
+        border-top: 1px solid #eee;
+      }
+      &:active{
+        background: rgba(207, 207, 207, 0.1);
+      }
+    }
+  }
+}
